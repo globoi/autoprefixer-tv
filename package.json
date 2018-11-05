@@ -1,6 +1,6 @@
 {
   "name": "autoprefixer-tv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin PostCSS plugin to split prefixed properties values into multiple rules.",
   "keywords": [
     "postcss",
@@ -12,11 +12,11 @@
   ],
   "author": "Célio Latorraca <celio.latorraca@corp.globo.com>",
   "license": "MIT",
-  "repository": "celiolatorraca/autoprefixer-tv",
+  "repository": "globoi/autoprefixer-tv",
   "bugs": {
-    "url": "https://github.com/celiolatorraca/autoprefixer-tv/issues"
+    "url": "https://github.com/globoi/autoprefixer-tv/issues"
   },
-  "homepage": "https://github.com/celiolatorraca/autoprefixer-tv",
+  "homepage": "https://github.com/globoi/autoprefixer-tv",
   "dependencies": {
     "postcss": "^6.0.1"
   },
@@ -24,6 +24,9 @@
     "eslint": "^3.19.0",
     "eslint-config-postcss": "^2.0.2",
     "jest": "^20.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://globocom.jfrog.io/globocom/api/npm/npm-remote/"
   },
   "scripts": {
     "test": "jest && yarn lint",
